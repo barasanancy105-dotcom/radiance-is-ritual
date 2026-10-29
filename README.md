@@ -1,7 +1,7 @@
 # Glow Guide — Radiance Is Ritual
 
 Glow Guide is a skincare and wellness website designed to encourage
-simple routines, mindful self-ca\e, and personal reflection.
+simple routines, mindful self-care, and personal reflection.
 
 ## Features
 
