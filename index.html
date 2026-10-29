@@ -1,0 +1,335 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glow Guide | Radiance Is Ritual</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="announcement">
+        YOUR DAILY REMINDER TO SLOW DOWN AND GLOW
+    </div>
+
+    <header>
+        <a href="#home" class="logo">
+            GLOW GUIDE
+            <span>SKINCARE & WELLNESS</span>
+        </a>
+
+        <button id="menuToggle" class="menu-toggle">MENU +</button>
+
+        <nav id="navigation">
+    <a href="index.html">HOME</a>
+    <a href="index.html#products">COLLECTION</a>
+    <a href="routine.html">MY ROUTINE</a>
+    <a href="journal.html">MY JOURNAL</a>
+</nav>
+
+        <button id="bagButton" class="bag-button">
+            BAG (<span id="bagCount">0</span>)
+        </button>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">ELEVATED SKINCARE. INTENTIONAL LIVING.</p>
+
+                <h1>Radiance<br>is <em>ritual.</em></h1>
+
+                <p>
+                    Thoughtful skincare for the moments that are
+                    entirely your own. Simple essentials, meaningful routines.
+                </p>
+
+                <a href="#products" class="button dark-button">
+                    DISCOVER THE COLLECTION ↗
+                </a>
+
+                <span class="hero-note">LESS RUSH. MORE RITUAL.</span>
+            </div>
+
+            <div class="hero-image">
+                <span>THE EVERYDAY EDIT · 01</span>
+            </div>
+        </section>
+
+        <section class="values">
+            <article>
+                <span>01</span>
+                <h3>Mindful ingredients</h3>
+                <p>Choose products that suit your skin and its needs.</p>
+            </article>
+
+            <article>
+                <span>02</span>
+                <h3>Science meets care</h3>
+                <p>Keep your routine thoughtful and uncomplicated.</p>
+            </article>
+
+            <article>
+                <span>03</span>
+                <h3>Everyday wellness</h3>
+                <p>Make space for small moments of self-care.</p>
+            </article>
+
+            <article>
+                <span>04</span>
+                <h3>Less, but better</h3>
+                <p>Build consistency instead of chasing perfection.</p>
+            </article>
+        </section>
+
+        <section class="section" id="products">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">THE SKINCARE EDIT</p>
+                    <h2>Essentials for<br><em>radiant skin.</em></h2>
+                </div>
+
+                <p>
+                    Meet your new everyday favourites.
+                    Build a routine that feels right for you.
+                </p>
+            </div>
+
+            <div class="filters">
+                <button class="filter active" data-category="all">ALL</button>
+                <button class="filter" data-category="cleanse">CLEANSE</button>
+                <button class="filter" data-category="treat">TREAT</button>
+                <button class="filter" data-category="hydrate">HYDRATE</button>
+                <button class="filter" data-category="protect">PROTECT</button>
+            </div>
+
+            <div class="product-grid">
+                <article class="product-card" data-category="cleanse">
+                    <div class="product-image image-one">
+                        <span class="product-tag">DAILY ESSENTIAL</span>
+                    </div>
+                    <p class="category">01 · CLEANSE</p>
+                    <h3>Gentle Cleanser</h3>
+                    <p class="description">A fresh, comfortable start to your routine.</p>
+                    <div class="product-bottom">
+                        <span>KSh 1,200</span>
+                        <button class="add-button" data-name="Gentle Cleanser" data-price="1200">ADD +</button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-category="treat">
+                    <div class="product-image image-two">
+                        <span class="product-tag">THE DAILY EDIT</span>
+                    </div>
+                    <p class="category">02 · TREAT</p>
+                    <h3>Daily Face Serum</h3>
+                    <p class="description">A lightweight step tailored to your skin.</p>
+                    <div class="product-bottom">
+                        <span>KSh 1,800</span>
+                        <button class="add-button" data-name="Daily Face Serum" data-price="1800">ADD +</button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-category="hydrate">
+                    <div class="product-image image-three">
+                        <span class="product-tag">SKIN COMFORT</span>
+                    </div>
+                    <p class="category">03 · HYDRATE</p>
+                    <h3>Comfort Cream</h3>
+                    <p class="description">Moisture to support your skin barrier.</p>
+                    <div class="product-bottom">
+                        <span>KSh 1,500</span>
+                        <button class="add-button" data-name="Comfort Cream" data-price="1500">ADD +</button>
+                    </div>
+                </article>
+
+                <article class="product-card" data-category="protect">
+                    <div class="product-image image-four">
+                        <span class="product-tag">MORNING MUST-HAVE</span>
+                    </div>
+                    <p class="category">04 · PROTECT</p>
+                    <h3>Daily Sunscreen</h3>
+                    <p class="description">An essential final step for the morning.</p>
+                    <div class="product-bottom">
+                        <span>KSh 1,300</span>
+                        <button class="add-button" data-name="Daily Sunscreen" data-price="1300">ADD +</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="philosophy" id="ritual">
+            <div class="philosophy-image"></div>
+
+            <div class="philosophy-text">
+                <p class="eyebrow">A DIFFERENT KIND OF BEAUTY ROUTINE</p>
+                <h2>Make room for<br><em>the little things.</em></h2>
+
+                <p>
+                    Your skincare routine does not need to be complicated.
+                    A few considered steps can become a moment to pause,
+                    reset and reconnect with yourself.
+                </p>
+
+                <a href="#routine" class="button outline-button">
+                    CREATE YOUR RITUAL ↗
+                </a>
+            </div>
+        </section>
+
+        <section class="section dashboard" id="routine">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">YOUR PERSONAL SPACE</p>
+                    <h2>Your daily<br><em>rituals.</em></h2>
+                </div>
+
+                <p>
+                    Progress, not perfection. Check in with yourself
+                    and celebrate the little things you complete.
+                </p>
+            </div>
+
+            <div class="dashboard-grid">
+                <div class="panel routine-panel">
+                    <div class="panel-heading">
+                        <h3>My skincare routine</h3>
+                        <span id="todayDate"></span>
+                    </div>
+
+                    <div class="progress-info">
+                        <span>DAILY PROGRESS</span>
+                        <strong id="progressText">0%</strong>
+                    </div>
+
+                    <div class="progress-track">
+                        <div id="progressBar"></div>
+                    </div>
+
+                    <div class="routine-tabs">
+                        <button class="routine-tab active" data-time="morning">MORNING</button>
+                        <button class="routine-tab" data-time="evening">EVENING</button>
+                    </div>
+
+                    <div id="routineList"></div>
+
+                    <p id="routineMessage">Every small step counts.</p>
+
+                    <button id="resetRoutine" class="reset-button">
+                        RESET THIS ROUTINE
+                    </button>
+                </div>
+
+                <div class="side-column">
+                    <div class="panel water-panel">
+                        <div class="panel-heading">
+                            <h3>Water check-in</h3>
+                            <span>DAILY HABIT</span>
+                        </div>
+
+                        <p class="muted">
+                            Remember to pause for a glass of water.
+                        </p>
+
+                        <div class="water-controls">
+                            <button id="waterMinus" aria-label="Remove a glass">−</button>
+
+                            <div>
+                                <strong id="waterCount">0</strong>
+                                <span>GLASSES</span>
+                            </div>
+
+                            <button id="waterPlus" aria-label="Add a glass">+</button>
+                        </div>
+
+                        <div class="progress-track">
+                            <div id="waterBar"></div>
+                        </div>
+
+                        <p id="waterMessage" class="muted">One moment at a time.</p>
+                    </div>
+
+                    <div class="panel bag-panel" id="shoppingBag">
+                        <div class="panel-heading">
+                            <h3>My shopping bag</h3>
+                            <span id="bagItems">0 ITEMS</span>
+                        </div>
+
+                        <div id="bagList">
+                            <p class="muted">Your bag is currently empty.</p>
+                        </div>
+
+                        <div class="bag-total">
+                            <span>ESTIMATED TOTAL</span>
+                            <strong id="bagTotal">KSh 0</strong>
+                        </div>
+
+                        <button id="clearBag" class="reset-button">
+                            CLEAR BAG
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="journal-section" id="journal">
+            <div class="journal-heading">
+                <p class="eyebrow">A MOMENT TO REFLECT</p>
+                <h2>How are you <em>feeling?</em></h2>
+                <p>Your daily check-in is about you, not perfection.</p>
+            </div>
+
+            <div class="journal-card">
+                <p class="category">CHOOSE YOUR MOOD</p>
+
+                <div class="mood-options">
+                    <button class="mood-button" data-mood="Calm">CALM</button>
+                    <button class="mood-button" data-mood="Hopeful">HOPEFUL</button>
+                    <button class="mood-button" data-mood="Tired">TIRED</button>
+                    <button class="mood-button" data-mood="Grounded">GROUNDED</button>
+                </div>
+
+                <label for="journalEntry" class="category">TODAY'S THOUGHTS</label>
+
+                <textarea id="journalEntry" rows="5"
+                    placeholder="Write a little note to yourself..."></textarea>
+
+                <div class="journal-footer">
+                    <span id="saveMessage">Your notes stay in this browser.</span>
+                    <button id="saveJournal" class="button dark-button">SAVE MY NOTE ↗</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <p class="eyebrow">A NOTE FROM GLOW GUIDE</p>
+            <h2>A softer approach<br>to your inbox.</h2>
+            <p>Occasional skincare reminders and thoughtful little rituals.</p>
+
+            <form id="newsletterForm">
+                <input type="email" id="emailInput" placeholder="Your email address" required>
+                <button type="submit">SIGN ME UP ↗</button>
+            </form>
+
+            <p id="newsletterMessage" class="newsletter-message"></p>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#home" class="logo">
+            GLOW GUIDE
+            <span>SKINCARE & WELLNESS</span>
+        </a>
+
+        <p>Radiance is a ritual, not a race.</p>
+        <a href="#home">BACK TO TOP ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
