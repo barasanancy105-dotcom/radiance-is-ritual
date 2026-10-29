@@ -5,7 +5,7 @@ simple routines, mindful self-care, and personal reflection.
 
 ## Features
 
-- Responsive skincare collection with category filters
+- Responsive skincare colletion with category filters
 - Shopping bag with item quantities and estimated totals
 - Personal routine builder for morning and evening products
 - Routine completion checklist and progress indicators
