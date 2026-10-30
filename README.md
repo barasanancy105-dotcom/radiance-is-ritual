@@ -44,8 +44,3 @@ The project uses browser localStorage with the key `glowGuideLuxury`.
 Saved information remains in the same browser and website origin until
 the data is cleared. This project does not currently use a server or
 online database.
-
-## Important note
-
-The newsletter form is a front-end demonstration. It does not subscribe
-visitors to a mailing list.
